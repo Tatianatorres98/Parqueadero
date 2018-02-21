@@ -18,6 +18,12 @@ public class Parqueadero {
         Camion cami;
         cami=new Camion();
         
+        Fichavehiculo mificha;
+        mificha=new Fichavehiculo();
+        mificha.setVisible(true);
+        mificha.mimoto=moto1;
+        
+        
        
     }
 }
