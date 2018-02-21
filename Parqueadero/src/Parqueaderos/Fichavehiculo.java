@@ -34,11 +34,11 @@ public class Fichavehiculo extends javax.swing.JFrame {
 
         jLabel3 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
+        Marca = new javax.swing.JLabel();
         marca = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        cilindraje = new javax.swing.JLabel();
+        modelo = new javax.swing.JLabel();
+        año = new javax.swing.JLabel();
         textocilindraje = new javax.swing.JTextField();
         textomodelo = new javax.swing.JTextField();
         textoaño = new javax.swing.JTextField();
@@ -54,7 +54,7 @@ public class Fichavehiculo extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel2.setText("Marca");
+        Marca.setText("Marca");
 
         marca.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -62,11 +62,11 @@ public class Fichavehiculo extends javax.swing.JFrame {
             }
         });
 
-        jLabel4.setText("Cilindraje");
+        cilindraje.setText("Cilindraje");
 
-        jLabel5.setText("Modelo");
+        modelo.setText("Modelo");
 
-        jLabel6.setText("Año");
+        año.setText("Año");
 
         textocilindraje.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,10 +100,10 @@ public class Fichavehiculo extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(36, 36, 36)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.LEADING))
+                    .addComponent(cilindraje)
+                    .addComponent(Marca, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(año, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(modelo, javax.swing.GroupLayout.Alignment.LEADING))
                 .addGap(79, 79, 79)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(guardar)
@@ -122,18 +122,18 @@ public class Fichavehiculo extends javax.swing.JFrame {
                         .addComponent(marca, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel2)))
+                        .addComponent(Marca)))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
+                    .addComponent(cilindraje)
                     .addComponent(textocilindraje, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
+                    .addComponent(modelo)
                     .addComponent(textomodelo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(23, 23, 23)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
+                    .addComponent(año)
                     .addComponent(textoaño, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(32, 32, 32)
                 .addComponent(guardar)
@@ -205,14 +205,14 @@ public class Fichavehiculo extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Marca;
+    private javax.swing.JLabel año;
+    private javax.swing.JLabel cilindraje;
     private javax.swing.JButton guardar;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField marca;
+    private javax.swing.JLabel modelo;
     private javax.swing.JTextField textoaño;
     private javax.swing.JTextField textocilindraje;
     private javax.swing.JTextField textomodelo;
