@@ -1,5 +1,5 @@
 
-package Parqueadero;
+package Vehiculos;
 
 
 public class Moto extends Vehiculo {

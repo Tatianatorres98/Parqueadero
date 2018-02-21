@@ -1,9 +1,9 @@
 
 package Parqueaderos;
 
-import Parqueadero.Camion;
-import Parqueadero.Moto;
-import Parqueadero.Vehiculo;
+import Vehiculos.Camion;
+import Vehiculos.Moto;
+import Vehiculos.Vehiculo;
 
 
 public class Parqueadero {
